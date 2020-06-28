@@ -1,0 +1,29 @@
+{
+  "members": [
+    {
+      "id": 1,
+      "name": "bilbo bagins",
+      "active": true
+    },
+    {
+      "id": 2,
+      "name": "frodo bagins",
+      "active": true
+    },
+    {
+      "id": 3,
+      "name": "Thranduil",
+      "active": true
+    },
+    {
+      "id": 4,
+      "name": "gandalf",
+      "active": true
+    },
+    {
+      "name": "baba buba uuu",
+      "active": true,
+      "id": 5
+    }
+  ]
+}
