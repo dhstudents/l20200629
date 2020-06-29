@@ -1,0 +1,36 @@
+{
+  "birds": [
+    {
+      "id": 1,
+      "name": "bird #1"
+    },
+    {
+      "id": 2,
+      "name": "bird #2"
+    },
+    {
+      "name": "bird #100",
+      "id": 4
+    },
+    {
+      "name": "nachlieli",
+      "id": 5
+    },
+    {
+      "name": "bird #100",
+      "id": 6
+    },
+    {
+      "name": "bird #100",
+      "id": 7
+    },
+    {
+      "name": "bird #100",
+      "id": 8
+    },
+    {
+      "name": "bird #100",
+      "id": 9
+    }
+  ]
+}

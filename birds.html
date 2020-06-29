@@ -10,20 +10,16 @@
 <body>
     <script>
         function reqListener() {
-           // console.log(this.responseText);
-           let imageUrl = URL.createObjectURL(this.response);
-           let bird = new Image();
-           bird.src = imageUrl;
-           bird.width = 400
-         //  bird.height = 400
-           document.body.appendChild(bird)
+           console.log(this.response);
+            //console.log(JSON.parse(this.responseText));
         }
 
         var oReq = new XMLHttpRequest();
         oReq.addEventListener("load", reqListener);
-        oReq.open("GET", "red-bird.jpg");
-        oReq.responseType = 'blob'
+        oReq.open("GET", "http://localhost:3000/birds/2"); // data.json
+        oReq.responseType = 'json'
         oReq.send();
+
     </script>
 </body>
 

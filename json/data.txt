@@ -1,4 +1,5 @@
 {
     "id": 100,
-    "name": "danny"
+    "name": "danny",
+    "member": true
 }
